@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onaopemipo Susan Fadairo | Engineering Portfolio</title>
+
+ <style>
+  :root {
+     --primary-blue: #0b3c5d;
+     --accent-teal: #1f7a8c;
+     --bg-light: #f0f2f5;
+}
+   body{
+     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+     background-color: var(--bg-light);
+     color: #333;
+     margin: 0;
+     padding: 0;
+     line-height: 1.6;
+}
+
+   img{
+     display: block;
+     margin: 30px auto;
+     width: 200px;
+     border-radius: 10px;
+}
+
+  h1, h2, h3{
+   text-align: center;
+   color: #0b3c5d;
+   margin: 0;
+}
+ 
+  h1{
+   font-size: 32px;
+}
+
+  h2{
+   font-size: 24px;
+}
+
+  h3 {
+   font-size: 20px;
+}
+
+  p{
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+  nav {
+       position: sticky;
+     top: 0;
+     background: white;
+     padding: 15px;
+     text-align: center;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+     z-index: 1000;
+   }
+  nav a {
+      margin: 0 15px;
+     text-decoration: none;
+     color: var(--primary-blue);
+     font-weight: bold;
+     transition: 0.3s;
+   }
+
+  nav a:hover {
+     color: var(--accent-teal);
+   }
+
+  ul {
+   max-width: 700px;
+   margin: 10px auto;
+   padding-left: 20px;
+}
+
+   .section{
+     margin: 50px auto;
+     max-width: 800px;
+     padding: 30px;
+     background: white;
+     border-radius: 12px;
+     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+     html {
+  scroll-behavior: smooth;
+}
+
+   input{
+     width: 100%;
+     padding: 2px;
+     margin-bottom: 10px;
+}
+
+   button{
+     background-color: #1f7a8c;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     margin-top: 10px;
+}
+
+  button:hover{
+    background-color: #155e63;
+}
+
+  a {
+   text-decoration: none;
+   color: #0b3c5d;
+   font-weight: bold;
+   margin: 0 10px;
+}
+
+  a:hover {
+   color: #155e63;
+}
+   header{
+    text-align: center;
+}
+
+   footer {
+     text-align: center;
+     margin-top: 50px;
+     padding: 20px;
+     font-size: 14px;
+     color: #666;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Onaopemipo Susan Fadairo</h1>
+  <p><b>Computer Engineering Student | Aspiring Robotics Engineer</b></p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#learning">Learning Focus</a>
+  <a href="#robotics">Why Robotics</a>
+  <a href="#motivation">Motivation</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="section" id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a Computer Engineering student with a strong interest in robotics,
+    embedded systems, and intelligent technologies.
+  </p>
+  <p>
+    This portfolio documents my learning journey, personal projects,
+    and technical growth as I prepare for advanced studies and a future career
+    in engineering.
+  </p>
+</div>
+
+<div class="section" id="skills">
+  <h2>Skills</h2>
+
+  <ul>
+    <li>HTML & CSS (foundational level)</li>
+    <li>Basic problem-solving and logical thinking</li>
+    <li>Introduction to programming concepts</li>
+    <li>Strong interest in robotics and embedded systems</li>
+  </ul>
+</div>
+
+<div class="section" id="projects">
+  <h2>Projects</h2>
+
+  <b><i><p><strong>Personal Engineering Portfolio Website</strong></p></i></b>
+
+<p><em>Tools:</em> HTML, CSS</p>
+
+<p><strong>Problem / Goal:</strong><br>
+To create a structured and professional online platform to document my
+engineering learning journey, projects, and technical interests in a way
+that can be presented to universities and academic programs.
+</p>
+
+<p><strong>Approach / Design:</strong><br>
+The website was designed using semantic HTML for clear structure and
+CSS for layout, typography, and visual consistency. Emphasis was placed
+on readability, logical sectioning, and simplicity to ensure the content
+is easy to navigate and maintain.
+</p>
+
+<p><strong>Skills & Concepts Used:</strong></p>
+<ul>
+  <li>HTML document structure and semantic elements</li>
+  <li>CSS styling, layout control, and hover effects</li>
+  <li>Problem decomposition and incremental improvement</li>
+</ul>
+
+<p><strong>Status:</strong> In progress (continuously improved as skills develop)</p>
+
+<hr>
+
+<p><strong>Line Following Robot</strong></p>
+
+<p><em>Tools:</em> Arduino, IR sensors, DC motors, motor driver</p>
+
+<p><strong>Problem / Goal:</strong><br>
+To design and implement an autonomous mobile robot capable of detecting
+and following a predefined path using sensor feedback and basic control
+logic.
+</p>
+
+<p><strong>Approach / Design:</strong><br>
+The system will use infrared sensors to detect contrast between the line
+and the surface. Sensor readings will be processed by a microcontroller,
+which will generate control signals to adjust motor speeds through a
+motor driver. The robot’s movement will be corrected in real time based
+on sensor input.
+</p>
+
+<p><strong>Skills & Concepts Used:</strong></p>
+<ul>
+  <li>Embedded systems fundamentals</li>
+  <li>Sensor interfacing and signal interpretation</li>
+  <li>Basic control logic and decision-making</li>
+  <li>Motor control using a microcontroller</li>
+</ul>
+
+<p><strong>Status:</strong> Planned (design and learning phase)</p>
+
+<hr>
+
+<p><strong>Temperature Monitoring System</strong></p>
+
+<p><em>Tools:</em> Arduino, temperature sensor, LCD display</p>
+
+<p><strong>Problem / Goal:</strong><br>
+To design an embedded system capable of measuring environmental
+temperature and displaying real-time data in a clear and readable
+format.
+</p>
+
+<p><strong>Approach / Design:</strong><br>
+A temperature sensor will be interfaced with a microcontroller to acquire
+analog data, which will be converted to digital values and processed.
+The processed temperature readings will be displayed on an LCD screen,
+introducing basic real-time system behavior.
+</p>
+
+<p><strong>Skills & Concepts Used:</strong></p>
+<ul>
+  <li>Analog-to-digital conversion</li>
+  <li>Sensor calibration and data interpretation</li>
+  <li>Embedded system design</li>
+  <li>Real-time data display</li>
+</ul>
+
+<p><strong>Status:</strong> Planned (conceptual design stage)</p>
+  
+</div>
+
+<div class="section" id="learning">
+  <h2>Current Learning Focus</h2>
+  <ul>
+    <li>Basic electronics principles</li>
+    <li>Introduction to Arduino programming</li>
+    <li>Python programming: Learning automation and data logic for robotics applications</li>
+    <li>Microsoft office specialization</li>
+    <li>Understanding sensors and actuators</li>
+    <li>Improving problem-solving through practice</li>
+  </ul>
+</div>
+
+<div class="section" id="robotics">
+  <h2>Why Robotics?</h2>
+  <p>
+    Robotics combines hardware, software, and analytical thinking to solve real-world
+    problems. I am motivated by the challenge of designing systems that sense,
+    decide, and act.
+  </p>
+  <p>
+    My long-term goal is to contribute to intelligent systems that improve efficiency,
+    safety, and quality of life.
+  </p>
+</div>
+
+<div class="section" id="motivation">
+  <h2>Motivation & Academic Goals</h2>
+
+  <p>
+    My interest in engineering comes from a desire to understand how
+    systems work and how technology can be used to solve real-world
+    problems. I am particularly drawn to robotics because it combines
+    hardware, software, and analytical thinking into a single discipline.
+  </p>
+
+  <p>
+    As a developing engineering student, my current goal is to build a
+    strong foundation in electronics, programming, and embedded systems.
+    Through continuous learning and hands-on projects, I aim to develop
+    the skills required to design intelligent and reliable systems.
+  </p>
+
+  <p>
+    In the long term, I aspire to contribute to innovative engineering
+    solutions that improve efficiency, safety, and quality of life across
+    different applications.
+  </p>
+</div>
+
+<div class="section" id="contact">
+ <h2>Contact</h2>
+ <p>Email: onaopesusan@gmail.com</p>
+</div>
+
+<footer>
+  <p>© 2025 Onaopemipo Susan Fadairo</p>
+</footer>@
+
+</body>
+</html>
